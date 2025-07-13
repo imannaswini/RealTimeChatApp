@@ -1,4 +1,5 @@
 💬 Real-Time Chat App
+
 A full-stack real-time chat application that supports:
 
 ✅ Group Chat (room-based)
@@ -44,12 +45,12 @@ React.js	Node.js + Express	Socket.IO	MongoDB
 
 🛠️ Setup Instructions
 1. Clone the repository
-git clone https://github.com/yourusername/chat-app.git
-cd chat-app
+> git clone https://github.com/yourusername/chat-app.git
+>cd chat-app
 2. Backend Setup (/backend)
-cd backend
-npm install
-Create .env file
+>cd backend
+>npm install
+3.Create .env file
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/chat-app
 JWT_SECRET=your-secret-key
